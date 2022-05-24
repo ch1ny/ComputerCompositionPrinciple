@@ -1,0 +1,667 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Register8
+# storage
+db|Remake.(1).cnf
+db|Remake.(1).cnf
+# case_insensitive
+# source_file
+Register8.bdf
+48435f3fda71f20fcb17c8e19f79554
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Register8:Y
+Registers:inst7|Register8:R1
+Registers:inst7|Register8:R2
+Registers:inst7|Register8:R0
+Register8:IR
+ALU:inst36|Register8:inst4
+ALU:inst36|Register8:inst3
+Register8:MAR
+Register8:STA
+}
+# macro_sequence
+
+# end
+# entity
+3-8
+# storage
+db|Remake.(2).cnf
+db|Remake.(2).cnf
+# case_insensitive
+# source_file
+3-8.bdf
+ff8150eef312e52a52b80c95773b82
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+3-8:inst5
+3-8:inst40
+}
+# macro_sequence
+
+# end
+# entity
+Driver
+# storage
+db|Remake.(3).cnf
+db|Remake.(3).cnf
+# case_insensitive
+# source_file
+Driver.bdf
+c72a20b230bd9a601893bd64808a7535
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Driver:inst3
+}
+# macro_sequence
+
+# end
+# entity
+2-4
+# storage
+db|Remake.(8).cnf
+db|Remake.(8).cnf
+# case_insensitive
+# source_file
+2-4.bdf
+437e5fad14eb4dcf6878c9e2688b3713
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+2-4:inst19
+Registers:inst7|2-4:inst2
+}
+# macro_sequence
+
+# end
+# entity
+256Plus1
+# storage
+db|Remake.(9).cnf
+db|Remake.(9).cnf
+# case_insensitive
+# source_file
+256Plus1.bdf
+f59eb6c6e19a1146616cad6de03560e6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+256Plus1:uPC
+256Plus1:PC
+}
+# macro_sequence
+
+# end
+# entity
+2plus1
+# storage
+db|Remake.(10).cnf
+db|Remake.(10).cnf
+# case_insensitive
+# source_file
+2plus1.bdf
+6b58634c2834a82884214d6db3d8f3f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+256Plus1:uPC|2plus1:inst3
+256Plus1:uPC|2plus1:inst2
+256Plus1:uPC|2plus1:inst1
+256Plus1:uPC|2plus1:inst
+256Plus1:PC|2plus1:inst3
+256Plus1:PC|2plus1:inst2
+256Plus1:PC|2plus1:inst1
+256Plus1:PC|2plus1:inst
+}
+# macro_sequence
+
+# end
+# entity
+1bit2chooser
+# storage
+db|Remake.(11).cnf
+db|Remake.(11).cnf
+# case_insensitive
+# source_file
+1bit2chooser.bdf
+50d2f9621fa2714d3eaf5ffae28e611
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+256Plus1:uPC|2plus1:inst3|1bit2chooser:inst
+256Plus1:uPC|2plus1:inst3|1bit2chooser:inst7
+256Plus1:uPC|2plus1:inst3|1bit2chooser:inst2
+256Plus1:uPC|2plus1:inst2|1bit2chooser:inst
+256Plus1:uPC|2plus1:inst2|1bit2chooser:inst7
+256Plus1:uPC|2plus1:inst2|1bit2chooser:inst2
+256Plus1:uPC|2plus1:inst1|1bit2chooser:inst
+256Plus1:uPC|2plus1:inst1|1bit2chooser:inst7
+256Plus1:uPC|2plus1:inst1|1bit2chooser:inst2
+256Plus1:uPC|2plus1:inst|1bit2chooser:inst
+256Plus1:uPC|2plus1:inst|1bit2chooser:inst7
+256Plus1:uPC|2plus1:inst|1bit2chooser:inst2
+256Plus1:PC|2plus1:inst3|1bit2chooser:inst
+256Plus1:PC|2plus1:inst3|1bit2chooser:inst7
+256Plus1:PC|2plus1:inst3|1bit2chooser:inst2
+256Plus1:PC|2plus1:inst2|1bit2chooser:inst
+256Plus1:PC|2plus1:inst2|1bit2chooser:inst7
+256Plus1:PC|2plus1:inst2|1bit2chooser:inst2
+256Plus1:PC|2plus1:inst1|1bit2chooser:inst
+256Plus1:PC|2plus1:inst1|1bit2chooser:inst7
+256Plus1:PC|2plus1:inst1|1bit2chooser:inst2
+256Plus1:PC|2plus1:inst|1bit2chooser:inst
+256Plus1:PC|2plus1:inst|1bit2chooser:inst7
+256Plus1:PC|2plus1:inst|1bit2chooser:inst2
+}
+# macro_sequence
+
+# end
+# entity
+TriEn
+# storage
+db|Remake.(12).cnf
+db|Remake.(12).cnf
+# case_insensitive
+# source_file
+TriEn.bdf
+b9ea655935e959231c948b1f879c6a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+TriEn:MDR
+}
+# macro_sequence
+
+# end
+# entity
+EN
+# storage
+db|Remake.(14).cnf
+db|Remake.(14).cnf
+# case_insensitive
+# source_file
+EN.bdf
+4deec4677729a1733427a2a06bee42
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+JO:inst41|EN:inst11
+EN:Rm
+Registers:inst7|EN:inst10
+EN:uPCo
+EN:inst31
+EN:inst32
+EN:FF
+ALU:inst36|EN:inst5
+ALU:inst36|EN:inst6
+ALU:inst36|EN:inst7
+ALU:inst36|EN:inst10
+EN:inst43
+EN:inst37
+EN:inst38
+EN:inst8
+EN:inst42
+EN:inst33
+EN:inst34
+}
+# macro_sequence
+
+# end
+# entity
+uAddr
+# storage
+db|Remake.(13).cnf
+db|Remake.(13).cnf
+# case_insensitive
+# source_file
+uAddr.bdf
+80e2dc3b7e61ee75f97d9b17acd88bd
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+uAddr:inst4
+}
+# macro_sequence
+
+# end
+# entity
+ALU8
+# storage
+db|Remake.(4).cnf
+db|Remake.(4).cnf
+# case_insensitive
+# source_file
+ALU8.bdf
+d5a1504ccf16d5c906cf4440508be2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+Selector2
+# storage
+db|Remake.(16).cnf
+db|Remake.(16).cnf
+# case_insensitive
+# source_file
+Selector2.bdf
+ae43c0cf23edc14d45cbba5c62b593
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Selector2:inst28
+}
+# macro_sequence
+
+# end
+# entity
+MultiUnit
+# storage
+db|Remake.(20).cnf
+db|Remake.(20).cnf
+# case_insensitive
+# source_file
+MultiUnit.bdf
+c12c4e8b6a57cd53dd7c551aa6a928fd
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst36|Multi:inst18|MultiUnit:inst
+ALU:inst36|Multi:inst18|MultiUnit:inst3
+ALU:inst36|Multi:inst18|MultiUnit:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst15
+ALU:inst36|Multi:inst18|MultiUnit:inst5
+ALU:inst36|Multi:inst18|MultiUnit:inst4
+ALU:inst36|Multi:inst18|MultiUnit:inst22
+ALU:inst36|Multi:inst18|MultiUnit:inst16
+ALU:inst36|Multi:inst18|MultiUnit:inst8
+ALU:inst36|Multi:inst18|MultiUnit:inst6
+ALU:inst36|Multi:inst18|MultiUnit:inst28
+ALU:inst36|Multi:inst18|MultiUnit:inst23
+ALU:inst36|Multi:inst18|MultiUnit:inst17
+ALU:inst36|Multi:inst18|MultiUnit:inst11
+ALU:inst36|Multi:inst18|MultiUnit:inst7
+ALU:inst36|Multi:inst18|MultiUnit:inst36
+ALU:inst36|Multi:inst18|MultiUnit:inst31
+ALU:inst36|Multi:inst18|MultiUnit:inst24
+ALU:inst36|Multi:inst18|MultiUnit:inst18
+ALU:inst36|Multi:inst18|MultiUnit:inst12
+ALU:inst36|Multi:inst18|MultiUnit:inst9
+ALU:inst36|Multi:inst18|MultiUnit:inst43
+ALU:inst36|Multi:inst18|MultiUnit:inst37
+ALU:inst36|Multi:inst18|MultiUnit:inst32
+ALU:inst36|Multi:inst18|MultiUnit:inst25
+ALU:inst36|Multi:inst18|MultiUnit:inst19
+ALU:inst36|Multi:inst18|MultiUnit:inst13
+ALU:inst36|Multi:inst18|MultiUnit:inst10
+ALU:inst36|Multi:inst18|MultiUnit:inst44
+ALU:inst36|Multi:inst18|MultiUnit:inst38
+ALU:inst36|Multi:inst18|MultiUnit:inst33
+ALU:inst36|Multi:inst18|MultiUnit:inst26
+ALU:inst36|Multi:inst18|MultiUnit:inst20
+ALU:inst36|Multi:inst18|MultiUnit:inst14
+ALU:inst36|Multi:inst18|MultiUnit:inst45
+ALU:inst36|Multi:inst18|MultiUnit:inst39
+ALU:inst36|Multi:inst18|MultiUnit:inst34
+ALU:inst36|Multi:inst18|MultiUnit:inst27
+ALU:inst36|Multi:inst18|MultiUnit:inst21
+ALU:inst36|Multi:inst18|MultiUnit:inst46
+ALU:inst36|Multi:inst18|MultiUnit:inst40
+ALU:inst36|Multi:inst18|MultiUnit:inst35
+ALU:inst36|Multi:inst18|MultiUnit:inst29
+ALU:inst36|Multi:inst18|MultiUnit:inst47
+ALU:inst36|Multi:inst18|MultiUnit:inst41
+ALU:inst36|Multi:inst18|MultiUnit:inst30
+ALU:inst36|Multi:inst18|MultiUnit:inst48
+ALU:inst36|Multi:inst18|MultiUnit:inst42
+ALU:inst36|Multi:inst18|MultiUnit:inst49
+}
+# macro_sequence
+
+# end
+# entity
+FullAdder
+# storage
+db|Remake.(21).cnf
+db|Remake.(21).cnf
+# case_insensitive
+# source_file
+FullAdder.bdf
+18a213daf879d4e1d0e077211df61629
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst36|Multi:inst18|MultiUnit:inst|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst3|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst2|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst15|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst5|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst4|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst22|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst16|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst8|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst6|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst28|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst23|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst17|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst11|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst7|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst36|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst31|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst24|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst18|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst12|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst9|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst43|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst37|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst32|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst25|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst19|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst13|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst10|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst44|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst38|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst33|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst26|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst20|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst14|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst45|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst39|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst34|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst27|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst21|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst46|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst40|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst35|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst29|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst47|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst41|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst30|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst48|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst42|FullAdder:inst2
+ALU:inst36|Multi:inst18|MultiUnit:inst49|FullAdder:inst2
+}
+# macro_sequence
+
+# end
+# entity
+Registers
+# storage
+db|Remake.(7).cnf
+db|Remake.(7).cnf
+# case_insensitive
+# source_file
+Registers.bdf
+f0584ceb6946d85585325ecea3f99671
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Registers:inst7
+}
+# macro_sequence
+
+# end
+# entity
+Multi
+# storage
+db|Remake.(18).cnf
+db|Remake.(18).cnf
+# case_insensitive
+# source_file
+Multi.bdf
+5160c522953158967f16bd2a413f6066
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst36|Multi:inst18
+}
+# macro_sequence
+
+# end
+# entity
+BYDecoder
+# storage
+db|Remake.(22).cnf
+db|Remake.(22).cnf
+# case_insensitive
+# source_file
+BYDecoder.bdf
+7af95914616f83ff191836874dbe267
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst36|Multi:inst18|BYDecoder:inst51
+ALU:inst36|Multi:inst18|BYDecoder:inst52
+}
+# macro_sequence
+
+# end
+# entity
+ALU
+# storage
+db|Remake.(5).cnf
+db|Remake.(5).cnf
+# case_insensitive
+# source_file
+ALU.bdf
+74417f5b22c6b4b7966b8f0149c522c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst36
+}
+# macro_sequence
+
+# end
+# entity
+YBDecoder
+# storage
+db|Remake.(6).cnf
+db|Remake.(6).cnf
+# case_insensitive
+# source_file
+YBDecoder.bdf
+e95f19ad0826f98245ac2bd0c8e922
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst36|Multi:inst18|YBDecoder:inst54
+}
+# macro_sequence
+
+# end
+# entity
+ADD8
+# storage
+db|Remake.(17).cnf
+db|Remake.(17).cnf
+# case_insensitive
+# source_file
+ADD8.bdf
+387a721f31705a11fa531c7c1d821e99
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst36|ADD8:inst9
+}
+# macro_sequence
+
+# end
+# entity
+74181
+# storage
+db|Remake.(19).cnf
+db|Remake.(19).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|74181.bdf
+5a7a42864d75db2f39a1f2da31e3e53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst36|Multi:inst18|YBDecoder:inst54|74181:inst15
+ALU:inst36|Multi:inst18|YBDecoder:inst54|74181:inst
+ALU:inst36|Multi:inst18|YBDecoder:inst54|74181:inst2
+ALU:inst36|Multi:inst18|YBDecoder:inst54|74181:inst3
+ALU:inst36|Multi:inst18|BYDecoder:inst51|74181:inst15
+ALU:inst36|Multi:inst18|BYDecoder:inst51|74181:inst
+ALU:inst36|Multi:inst18|BYDecoder:inst52|74181:inst15
+ALU:inst36|Multi:inst18|BYDecoder:inst52|74181:inst
+ALU:inst36|ADD8:inst9|74181:inst2
+ALU:inst36|ADD8:inst9|74181:inst3
+}
+# macro_sequence
+
+# end
+# entity
+74182
+# storage
+db|Remake.(23).cnf
+db|Remake.(23).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|74182.bdf
+7e848f93ad7899d68043667228e561f6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst36|Multi:inst18|YBDecoder:inst54|74182:inst5
+ALU:inst36|ADD8:inst9|74182:inst
+}
+# macro_sequence
+
+# end
+# entity
+Remake
+# storage
+db|Remake.(0).cnf
+db|Remake.(0).cnf
+# case_insensitive
+# source_file
+Remake.bdf
+fba4d4b39ce9baa66631ef57768f52
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+JO
+# storage
+db|Remake.(15).cnf
+db|Remake.(15).cnf
+# case_insensitive
+# source_file
+JO.bdf
+114ccf2eab0a32729d1d0e3b8b4d384
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+JO:inst41
+}
+# macro_sequence
+
+# end
+# complete
+

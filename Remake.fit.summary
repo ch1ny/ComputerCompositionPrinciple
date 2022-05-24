@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun May 23 09:46:44 2021
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : Remake
+Top-level Entity Name : Remake
+Family : Cyclone II
+Device : EP2C8Q208C8
+Timing Models : Final
+Total logic elements : 316 / 8,256 ( 4 % )
+    Total combinational functions : 298 / 8,256 ( 4 % )
+    Dedicated logic registers : 92 / 8,256 ( 1 % )
+Total registers : 92
+Total pins : 74 / 138 ( 54 % )
+Total virtual pins : 0
+Total memory bits : 0 / 165,888 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 36 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

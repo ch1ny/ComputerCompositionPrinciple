@@ -1,0 +1,216 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 23.715 ns
+From           : uIR8
+To             : Register8:STA|inst8
+From Clock     : --
+To Clock       : uIR11
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 24.116 ns
+From           : Registers:inst7|Register8:R1|inst
+To             : Bus7
+From Clock     : START
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 21.802 ns
+From           : uIR8
+To             : Bus5
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.841 ns
+From           : uIR4
+To             : Registers:inst7|Register8:R2|inst8
+From Clock     : --
+To Clock       : START
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR11'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 40.58 MHz ( period = 24.640 ns )
+From           : Registers:inst7|Register8:R1|inst
+To             : Register8:STA|inst8
+From Clock     : uIR11
+To Clock       : uIR11
+Failed Paths   : 0
+
+Type           : Clock Setup: 'LXMC'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 40.75 MHz ( period = 24.539 ns )
+From           : Registers:inst7|Register8:R1|inst
+To             : Register8:STA|inst8
+From Clock     : LXMC
+To Clock       : LXMC
+Failed Paths   : 0
+
+Type           : Clock Setup: 'START'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 40.75 MHz ( period = 24.539 ns )
+From           : Registers:inst7|Register8:R1|inst
+To             : Register8:STA|inst8
+From Clock     : START
+To Clock       : START
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR2'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 40.75 MHz ( period = 24.539 ns )
+From           : Registers:inst7|Register8:R1|inst
+To             : Register8:STA|inst8
+From Clock     : uIR2
+To Clock       : uIR2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR3'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 40.75 MHz ( period = 24.539 ns )
+From           : Registers:inst7|Register8:R1|inst
+To             : Register8:STA|inst8
+From Clock     : uIR3
+To Clock       : uIR3
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR9'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 40.98 MHz ( period = 24.401 ns )
+From           : Registers:inst7|Register8:R1|inst
+To             : Register8:STA|inst8
+From Clock     : uIR9
+To Clock       : uIR9
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR10'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 41.46 MHz ( period = 24.120 ns )
+From           : Registers:inst7|Register8:R1|inst
+To             : Register8:STA|inst8
+From Clock     : uIR10
+To Clock       : uIR10
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR5'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 175.69 MHz ( period = 5.692 ns )
+From           : Registers:inst7|Register8:R1|inst
+To             : Registers:inst7|Register8:R0|inst
+From Clock     : uIR5
+To Clock       : uIR5
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR4'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 175.72 MHz ( period = 5.691 ns )
+From           : Registers:inst7|Register8:R1|inst
+To             : Registers:inst7|Register8:R0|inst
+From Clock     : uIR4
+To Clock       : uIR4
+Failed Paths   : 0
+
+Type           : Clock Hold: 'uIR3'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Register8:IR|inst10
+To             : Registers:inst7|Register8:R0|inst10
+From Clock     : uIR3
+To Clock       : uIR3
+Failed Paths   : 190
+
+Type           : Clock Hold: 'uIR2'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Register8:IR|inst10
+To             : Registers:inst7|Register8:R0|inst10
+From Clock     : uIR2
+To Clock       : uIR2
+Failed Paths   : 190
+
+Type           : Clock Hold: 'START'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Register8:IR|inst10
+To             : Registers:inst7|Register8:R0|inst10
+From Clock     : START
+To Clock       : START
+Failed Paths   : 190
+
+Type           : Clock Hold: 'LXMC'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Register8:IR|inst10
+To             : Registers:inst7|Register8:R0|inst10
+From Clock     : LXMC
+To Clock       : LXMC
+Failed Paths   : 190
+
+Type           : Clock Hold: 'uIR10'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Register8:IR|inst10
+To             : Registers:inst7|Register8:R0|inst10
+From Clock     : uIR10
+To Clock       : uIR10
+Failed Paths   : 189
+
+Type           : Clock Hold: 'uIR11'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Register8:IR|inst10
+To             : Registers:inst7|Register8:R0|inst10
+From Clock     : uIR11
+To Clock       : uIR11
+Failed Paths   : 178
+
+Type           : Clock Hold: 'uIR9'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Register8:IR|inst10
+To             : Registers:inst7|Register8:R0|inst10
+From Clock     : uIR9
+To Clock       : uIR9
+Failed Paths   : 190
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 1317
+
+--------------------------------------------------------------------------------------
+

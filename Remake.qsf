@@ -1,0 +1,140 @@
+# Copyright (C) 1991-2008 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		Remake_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C8Q208C8
+set_global_assignment -name TOP_LEVEL_ENTITY Remake
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 8.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:52:23  MAY 10, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION 8.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 208
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name BDF_FILE Remake.bdf
+set_global_assignment -name BDF_FILE Registers.bdf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name MISC_FILE "D:/Quartus_Workspace/Remake/Remake.dpf"
+set_global_assignment -name BDF_FILE EN.bdf
+set_global_assignment -name BDF_FILE FullAdder.bdf
+set_global_assignment -name BDF_FILE MultiUnit.bdf
+set_global_assignment -name BDF_FILE Multi.bdf
+set_location_assignment PIN_77 -to CLR
+set_location_assignment PIN_61 -to CPuIR
+set_location_assignment PIN_131 -to LXMC
+set_location_assignment PIN_168 -to MAR0
+set_location_assignment PIN_169 -to MAR1
+set_location_assignment PIN_170 -to MAR2
+set_location_assignment PIN_171 -to MAR3
+set_location_assignment PIN_173 -to MAR4
+set_location_assignment PIN_175 -to MAR5
+set_location_assignment PIN_176 -to MAR6
+set_location_assignment PIN_179 -to MAR7
+set_location_assignment PIN_192 -to RAM0
+set_location_assignment PIN_193 -to RAM1
+set_location_assignment PIN_195 -to RAM2
+set_location_assignment PIN_197 -to RAM3
+set_location_assignment PIN_198 -to RAM4
+set_location_assignment PIN_199 -to RAM5
+set_location_assignment PIN_200 -to RAM6
+set_location_assignment PIN_201 -to RAM7
+set_location_assignment PIN_63 -to RD
+set_location_assignment PIN_180 -to ROM0
+set_location_assignment PIN_181 -to ROM1
+set_location_assignment PIN_182 -to ROM2
+set_location_assignment PIN_185 -to ROM3
+set_location_assignment PIN_187 -to ROM4
+set_location_assignment PIN_188 -to ROM5
+set_location_assignment PIN_189 -to ROM6
+set_location_assignment PIN_191 -to ROM7
+set_location_assignment PIN_132 -to START
+set_location_assignment PIN_89 -to uIR0
+set_location_assignment PIN_90 -to uIR1
+set_location_assignment PIN_92 -to uIR2
+set_location_assignment PIN_94 -to uIR3
+set_location_assignment PIN_95 -to uIR4
+set_location_assignment PIN_96 -to uIR5
+set_location_assignment PIN_97 -to uIR6
+set_location_assignment PIN_99 -to uIR7
+set_location_assignment PIN_101 -to uIR8
+set_location_assignment PIN_102 -to uIR9
+set_location_assignment PIN_103 -to uIR10
+set_location_assignment PIN_104 -to uIR11
+set_location_assignment PIN_112 -to uIR16
+set_location_assignment PIN_113 -to uIR17
+set_location_assignment PIN_114 -to uIR18
+set_location_assignment PIN_115 -to uIR19
+set_location_assignment PIN_116 -to uIR20
+set_location_assignment PIN_117 -to uIR21
+set_location_assignment PIN_118 -to uIR22
+set_location_assignment PIN_127 -to uIR23
+set_location_assignment PIN_60 -to uRD
+set_location_assignment PIN_64 -to WR
+set_global_assignment -name MISC_FILE "C:/Users/dell/Desktop/Remake/Remake.dpf"
+set_location_assignment PIN_105 -to uIR12
+set_global_assignment -name MISC_FILE "F:/Remake/Remake.dpf"
+set_global_assignment -name BDF_FILE JO.bdf
+set_location_assignment PIN_142 -to Bus0
+set_location_assignment PIN_143 -to Bus1
+set_location_assignment PIN_144 -to Bus2
+set_location_assignment PIN_145 -to Bus3
+set_location_assignment PIN_146 -to Bus4
+set_location_assignment PIN_147 -to Bus5
+set_location_assignment PIN_149 -to Bus6
+set_location_assignment PIN_150 -to Bus7
+set_global_assignment -name BDF_FILE Selector2.bdf
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name BDF_FILE ADD8.bdf
+set_location_assignment PIN_106 -to uIR13
+set_location_assignment PIN_108 -to uIR14
+set_location_assignment PIN_12 -to CF
+set_location_assignment PIN_33 -to ZF
+set_location_assignment PIN_30 -to SF
+set_location_assignment PIN_14 -to OF
+set_location_assignment PIN_67 -to test0
+set_location_assignment PIN_68 -to test1
+set_location_assignment PIN_69 -to test2
+set_location_assignment PIN_70 -to test3
+set_location_assignment PIN_72 -to test4
+set_location_assignment PIN_74 -to test5
+set_location_assignment PIN_75 -to test6
+set_location_assignment PIN_76 -to test7
+set_location_assignment PIN_23 -to testEn
+set_global_assignment -name VECTOR_WAVEFORM_FILE Remake.vwf
+set_location_assignment PIN_151 -to PC0
+set_location_assignment PIN_152 -to PC1
+set_location_assignment PIN_160 -to PC2
+set_location_assignment PIN_161 -to PC3
+set_location_assignment PIN_162 -to PC4
+set_location_assignment PIN_163 -to PC5
+set_location_assignment PIN_164 -to PC6
+set_location_assignment PIN_165 -to PC7
